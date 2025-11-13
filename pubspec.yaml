@@ -1,0 +1,28 @@
+name: naaz_interface
+description: Naaz AI Jarvis-style Holographic Interface
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  speech_to_text: ^6.3.0
+  flutter_tts: ^3.8.0
+  google_fonts: ^6.2.0
+  animated_text_kit: ^4.2.2
+  lottie: ^3.0.0
+  flutter_glow: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
